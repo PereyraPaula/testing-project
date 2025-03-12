@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Social media tags -->
+
+    <meta name="og:title" content="Título de prueba para probar si se ve en las redes sociales." />
+
+    <meta name="og:url" content="http://www.google.com" />
+
+    <meta name="og:description" content="Ejemplo de descripción para redes sociales" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta name="og:image:alt" content="Description of the image" />
+
+    <meta property="og:type" content="website" />
+
+    <!-- Tags HTML -->
+    <link rel="icon" type="image/x-icon" href="/testing-project/assets/images/favicon.ico" />
+    <meta name="author" content="Paula Pereyra" />
+
+    <!-- SEO tags -->
+
+    <link rel="canonical" href="http://www.google.com/testing-project/es/" />
+
+    <meta name="description" content="Página principal del sitio." />
+    <meta property="og:image" content="/testing-project/assets/images/18146637.png" />
+    <meta name="keywords" content="keyboard1, keyboard2, keyboard3" />
+    <link rel="stylesheet" href="/testing-project/assets/css/main.css" />
+    <script src="/testing-project/assets/js/main.js" defer=""></script>
+    <title>Inicio</title>
+  </head>
+
+  <body></body>
+</html>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Página de Prueba</h1>
+    <p class="subtitle">Aquí puedes probar imágenes, estilos y la internacionalización.</p>
+
+    <button class="button is-primary">Haz clic aquí</button>
+    <br />
+    <a href="#">Enlace</a>
+
+    <div class="columns mt-5">
+      <div class="column is-half">
+        <div class="card">
+          <div class="card-content">
+            <p class="title">Tarjeta de ejemplo</p>
+            <p class="content">Este es un texto de prueba dentro de una tarjeta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-half">
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              /testing-project/assets/images/photo_1-400.webp   400w,
+              /testing-project/assets/images/photo_1-800.webp   800w,
+              /testing-project/assets/images/photo_1-1280.webp 1280w,
+              /testing-project/assets/images/photo_1-2327.webp 2327w
+            "
+            sizes="100vw" />
+          <img
+            src="/testing-project/assets/images/photo_1-400.jpeg"
+            alt="The possum is Eleventy's mascot"
+            loading="lazy"
+            decoding="async"
+            width="2327"
+            height="1500"
+            srcset="
+              /testing-project/assets/images/photo_1-400.jpeg   400w,
+              /testing-project/assets/images/photo_1-800.jpeg   800w,
+              /testing-project/assets/images/photo_1-1280.jpeg 1280w,
+              /testing-project/assets/images/photo_1-2327.jpeg 2327w
+            "
+            sizes="100vw" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
